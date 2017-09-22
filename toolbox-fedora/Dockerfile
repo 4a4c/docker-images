@@ -16,4 +16,6 @@ RUN yum -y install \
   nmap \
   tcpdump \
   telnet \
+  iperf \
+  python \
   && yum clean all
