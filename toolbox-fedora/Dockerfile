@@ -16,7 +16,9 @@ RUN yum -y install \
   nmap \
   tcpdump \
   telnet \
+  mtr \
   iperf \
   omping \
   python \
+  httpd-tools \
   && yum clean all
