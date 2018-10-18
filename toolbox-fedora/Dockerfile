@@ -17,5 +17,6 @@ RUN yum -y install \
   tcpdump \
   telnet \
   iperf \
+  omping \
   python \
   && yum clean all
