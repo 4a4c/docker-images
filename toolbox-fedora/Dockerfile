@@ -12,6 +12,7 @@ RUN yum -y install \
   sysstat \
   net-tools \
   iputils \
+  fping \
   traceroute \
   nmap \
   tcpdump \
@@ -19,6 +20,11 @@ RUN yum -y install \
   mtr \
   iperf \
   omping \
+  sockperf \
   python \
   httpd-tools \
+  systemtap \
+  perf \
+  clang \
+  at \
   && yum clean all
